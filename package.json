@@ -86,7 +86,7 @@
     "@babel/plugin-proposal-optional-chaining": "^7.21.0"
   },
   "engines": {
-    "node": "10.24.1",
+    "node": "12.x",
     "npm": "6.14.12"
   }
 }
