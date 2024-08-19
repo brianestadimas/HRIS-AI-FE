@@ -59,10 +59,11 @@
     "react-treebeard": "^3.2.4",
     "react-trello": "^2.2.3",
     "sass": "^1.77.8",
-    "sweetalert2-react": "^0.8.3"
+    "sweetalert2-react": "^0.8.3",
+    "cross-env": "^7.0.3"
   },
   "scripts": {
-    "start": "react-scripts start --openssl-legacy-provider",
+    "start": "cross-env PORT=3000 react-scripts start --openssl-legacy-provider",
     "build": "react-scripts build --openssl-legacy-provider",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
